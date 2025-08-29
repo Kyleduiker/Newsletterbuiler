@@ -1,29 +1,12 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600&family=Crimson+Text:wght@400;600&family=Raleway:wght@300;400;500&family=Lora:wght@400;500&family=Cormorant+Garamond:wght@300;400;500&display=swap');
+/* Copy everything from <style> tag starting with: */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display...
 
-/* CSS Variables */
+/* Through this section: */
 :root {
     --primary-color: #f39c12;
-    --primary-dark: #e67e22;
-    --secondary-color: #27ae60;
-    --success-color: #27ae60;
-    --danger-color: #e74c3c;
-    --warning-color: #f39c12;
-    --info-color: #3498db;
-    --border-color: #e0e0e0;
-    --background-dark: #2c3e50;
-    --background-light: #f8f9fa;
-    --background-card: #ffffff;
-    --text-light: #2c3e50;
-    --text-muted: #666666;
-    --text-secondary: #999999;
-    --text-dark: #2c3e50;
-    --border-radius: 8px;
-    --box-shadow: 0 4px 12px rgba(243, 156, 18, 0.1);
-    --transition: all 0.3s ease;
+    /* ... all CSS variables ... */
 }
 
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -32,27 +15,32 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: var(--background-light);
-    color: var(--text-light);
-    min-height: 100vh;
-    line-height: 1.5;
+    /* ... body styles ... */
 }
 
-/* Layout */
+/* Main Content Section */
 .main-content {
-    padding: 40px 20px;
-    background: var(--background-light);
-    min-height: 100vh;
+    /* ... */
 }
 
 .content-container {
-    max-width: 1600px;
-    margin: 0 auto;
+    /* ... */
 }
 
+/* Dashboard Layout */
 .dashboard-container {
-    display: grid;
-    grid-template-columns: 500px 1fr;
-    gap: 30px;
-    margin-top: 20px;
+    /* ... */
+}
+
+.sidebar {
+    /* ... */
+}
+
+.preview-container {
+    /* ... */
+}
+
+/* App Header */
+.app-header {
+    /* ... */
 }
