@@ -1,36 +1,33 @@
-/* Buttons */
+/* Buttons - copy entire .btn section */
 .btn {
-    padding: 12px 20px;
-    border: none;
-    border-radius: var(--border-radius);
-    font-size: 13px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    cursor: pointer;
-    transition: var(--transition);
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    min-height: 44px;
-    justify-content: center;
-    text-decoration: none;
+    /* ... all button styles through .btn--full ... */
 }
 
-.btn:focus {
-    outline: 2px solid var(--primary-color);
-    outline-offset: 2px;
+/* Modal Styles */
+.modal-overlay {
+    /* ... through all modal styles ... */
 }
 
-.btn--primary {
-    background: var(--primary-color);
-    color: white;
+/* Toast Notifications */
+.toast-container {
+    /* ... through all toast styles ... */
 }
 
-.btn--primary:hover {
-    background: var(--primary-dark);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(243, 156, 18, 0.3);
+/* Preview Styles */
+.preview-header {
+    /* ... */
 }
 
-/* Continue with other button styles, modals, toasts, etc. */
+.newsletter-preview {
+    /* ... */
+}
+
+/* Quick color buttons */
+.quick-color-btn {
+    /* ... */
+}
+
+/* Emoji picker styles */
+.emoji-btn {
+    /* ... */
+}
